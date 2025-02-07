@@ -1,0 +1,72 @@
+
+.description{
+    height: 90vh;    
+    width: 20vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: beige;
+    border: 3px outset rgb(132, 111, 160);
+    padding: 50px;
+    color: white;
+}
+.projecto{
+    
+    height:90vh;
+
+}
+
+.flex-container{
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    color: white;
+    height: 40%;
+
+}
+
+.right{
+    border: 5px outset rgb(132, 111, 160);
+    height: 90vh;
+    width: 70vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body{
+    background-color: black;
+    //background-color: rgba(0, 0, 0, 0.678);
+}
+
+
+@media (max-width: 900px) {
+    
+    .right{
+        width: 90vw;
+        max-height: 40vh;
+        margin: 20px;
+        }
+
+    .description {
+        max-width: 90vw;
+        max-height: 40vh;
+        margin: 20px;
+    }
+
+    
+    .description{
+        width: 89vw;
+        height: auto;
+    }
+
+    .d-block{
+        max-width: 89vw;
+        max-height: 39vh;
+    }
+    .flex-container{
+        align-items: center;
+        display: flex;
+    }
+
+}

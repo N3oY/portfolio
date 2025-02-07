@@ -1,0 +1,94 @@
+
+<body>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <div class="Perfil-Container">
+
+        <div class="flex-item-left">
+            <div class="side">
+                <h2>About Me</h2>
+                <h5>Kevin Tapia Juarez</h5>
+                <img class="aboutimage" src="assets\lain.gif" alt="smol-lain-dance" width="100px" height="100px">
+                <p>Computer Science</p>
+                <p>Spanish: Native</p>
+                <p>English: B2</p>
+                <p>Japanese: A1</p>
+                <h3>Skills</h3>
+
+                    <div class="Skills">
+                            <h4>Programing Lenguages</h4>
+                            <ul>
+                                <li><i class="devicon-java-plain"> Java</i></li>
+                                <li><i class="devicon-python-plain"> Python</i></li>
+                                <li><i class="devicon-cplusplus-plain"> C++</i></li>
+                                <li><i class="devicon-csharp-plain"> C#</i></li>
+                                <li><i class="devicon-c-plain"> C</i></li>
+                                <li><i class="devicon-typescript-plain"> Typescript</i></li>
+                                <li><i class="devicon-html5-plain"> Html</i></li>
+                                <li><i class="devicon-css3-plain"> CSS</i></li>
+                            </ul>
+                    </div>
+
+                    <div class="Skills">
+                        <h4>Frameworks</h4>
+                        <ul>
+                            <li><i class="devicon-angularjs-plain "> Angular</i></li>
+                            <li><i class="devicon-djangorest-plain"> Django rest</i> </li>
+                            <li><i class="devicon-django-plain"> Django</i></li>
+                            <li><i class="devicon-bootstrap-plain"> Bootstrap</i></li>
+                            <li><i class="devicon-opencv-plain"> OpenCV</i> </li>
+                            <li><i class="devicon-tensorflow-original"> Tenserflow</i>  </li>
+                        </ul>
+                    </div>
+
+                    <div class="Skills">
+                        <h4>Tools</h4>
+                        <ul>
+                            <li><i class="devicon-unity-plain"> Unity</i></li>
+                            <li><i class="devicon-visualstudio-plain"> VisualStudio</i> </li>
+                            <li><i class="devicon-androidstudio-plain"> Android Studio</i> </li>
+                            <li><i class="devicon-git-plain"> Git</i></li>
+                            <li><i class="devicon-github-plain"> Github</i></li>
+                            <li><i class="devicon-amazonwebservices-plain-wordmark"> AWS</i></li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="flex-item-right">
+            <div class="main">
+                <h2>Experience</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <br>
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Project-Container" >
+        <div class="Project" *ngFor="let project of datos" >
+            <div class="project-left">
+                    <img  class="image" [src]=project.image alt="{{project.image}}" width="100%" height="100%" >
+            </div>
+            <div class="project-right">
+                    
+                    <h3 class="mt-3 colorfont">
+                        {{project.name}}
+                    </h3>
+                    <div class="colorfont "> 
+                    {{project.id}} <br/>
+                    {{project.ShortDescription}}
+                    </div>
+            </div>
+            <a  class="btn btn-primary" [routerLink]="['/project', project.id]"  >View more</a>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,90 @@
+[
+        {
+           "id":1,
+           "name":"Projecto 1",
+           "description":"Videojuego de matematicas para niños con enfoque en los mapas cartesianos y las operaciones basicas, realizado en Unity y C#",
+           "ShortDescription":"Videojuego de matematicas para niños con enfoque en los mapas cartesianos y las operaciones basicas",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg",
+           "lenguages":[
+               "devicon-csharp-plain",
+               "devicon-unity-plain"]
+
+           
+        },
+        {
+           "id":2,
+           "name":"Projecto 2",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"https://revistayume.com/wp-content/uploads/2023/12/991889-1296x700.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg",
+           "lenguages":["devicon-java-plain","devicon-python-plain"]
+        },
+        {
+           "id":3,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg",
+           "lenguages":["devicon-java-plain","devicon-python-plain","devicon-python-plain","devicon-python-plain"]
+        },
+        {
+           "id":4,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"https://revistayume.com/wp-content/uploads/2023/12/991889-1296x700.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg"
+        },
+        {
+           "id":5,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg"
+        },
+        {
+           "id":6,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg"
+        },
+        {
+           "id":7,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg"
+        },
+        {
+           "id":8,
+           "name":"Projecto 3",
+           "description":"Descripcion larga de un projecto en funcionamiento largo",
+           "ShortDescription":"Descriocion corta",
+           "url":"https://github.com/N3oY/MathGame",
+           "image":"\\assets\\16247.jpg",
+           "image1":"\\assets\\images\\1\\1.jpg",
+           "image2":"\\assets\\images\\1\\2.jpg"
+        }
+        
+        ]
