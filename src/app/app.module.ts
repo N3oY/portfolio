@@ -10,7 +10,6 @@ import { ProjectComponent } from './screens/project/project.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from './services/api.service';
-import { Router } from 'express';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -23,11 +22,10 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
       BrowserModule,
+      RouterModule.forRoot([]),
       NgbModule, 
       AppRoutingModule,
       HttpClientModule,
-      RouterModule.forRoot([]),
-      
       
   ],
   providers: [ApiService],
