@@ -24,7 +24,6 @@ import { RouterModule } from '@angular/router';
       BrowserModule,
       RouterModule.forRoot([]),
       NgbModule, 
-      AppRoutingModule,
       HttpClientModule,
       
   ],
