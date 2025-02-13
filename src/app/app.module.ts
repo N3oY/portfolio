@@ -25,6 +25,8 @@ import { RouterModule } from '@angular/router';
       RouterModule.forRoot([]),
       NgbModule, 
       HttpClientModule,
+      AppRoutingModule, 
+      RouterModule
       
   ],
   providers: [ApiService],
