@@ -7,6 +7,7 @@ import {
 import express from 'express';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { getContext } from '@netlify/angular-runtime/context'; // <- Elimina esta línea si no es necesaria
 
 const serverDistFolder = dirname(fileURLToPath(import.meta.url));
 const browserDistFolder = resolve(serverDistFolder, '../browser');

@@ -1,5 +1,6 @@
 import { RenderMode, ServerRoute } from '@angular/ssr';
 
+
 export const serverRoutes: ServerRoute[] = [
   { path: '', renderMode: RenderMode.Server },  // The root route '/'
   { path: 'home', renderMode: RenderMode.Server },  // The '/home' route
