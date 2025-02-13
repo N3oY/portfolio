@@ -39,11 +39,10 @@
                 "input": "public"
               }
             ],
-            "styles": ["node_modules/bootstrap/scss/bootstrap.scss",
-                      "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+            "styles": [
                       "src/styles.scss"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
+            "scripts": [],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -106,12 +105,12 @@
               }
             ],
             "styles": [
-              
-"node_modules/bootstrap/scss/bootstrap.scss",
-"node_modules/bootstrap-icons/font/bootstrap-icons.css",
-"src/styles.scss" 
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "src/styles.scss" 
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", "src/polyfills.js"]
+            
           }
         },
         "deploy": {

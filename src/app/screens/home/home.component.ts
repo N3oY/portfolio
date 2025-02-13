@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
 
     constructor(private apiService: ApiService) {}
 
-    ngOnInit(): void {
+    ngOnInit(){
       this.apiService.getItems().subscribe((data) => {
           this.datos = data; // Cambia según tu estructura JSON
           //console.log(this.datos);

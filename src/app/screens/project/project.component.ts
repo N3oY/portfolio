@@ -1,8 +1,6 @@
 import { Component ,OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from '../../services/api.service';
-import * as fs from 'fs';
-import * as path from 'path';
 
 
 @Component({
@@ -25,7 +23,7 @@ export class ProjectComponent implements OnInit {
 
     item: any;
 
-    ngOnInit(): void {
+    ngOnInit(){
 
       const id = +this.route.snapshot.paramMap.get('id')!;
       this.apiService.getItem(id).subscribe(data => {
