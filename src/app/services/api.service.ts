@@ -6,8 +6,7 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class ApiService {
-  private url = 'http://localhost:3000'; // Ruta del archivo JSON
+export class ApiService { // Ruta del archivo JSON
 
   constructor(private http: HttpClient) {}
   
