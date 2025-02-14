@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portfolio/browser",
+            "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -40,7 +40,7 @@
               }
             ],
             "styles": [
-                      "src/styles.scss"
+              "src/styles.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -63,7 +63,10 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "server": {
+                "enable": true
+              }
             },
             "development": {
               "optimization": false,
@@ -110,7 +113,6 @@
               "src/styles.scss" 
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", "src/polyfills.js"]
-            
           }
         },
         "deploy": {

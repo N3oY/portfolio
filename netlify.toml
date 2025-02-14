@@ -1,4 +1,13 @@
 [build]
-  base = "/"
+  command = "npm run build:ssr"
   publish = "dist/portfolio/browser"
-  command = "npm install && npm run build -- --configuration=production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
